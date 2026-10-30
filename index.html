@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <form id="formulario">
+        <p><b>Nombre: </b></p>
+        <input type="text" id="nombre" required>
+        <p id="nombre_p"></p><br>
+
+        <p><b>Apellido: </b></p>
+        <input type="text" id="apellido" required>
+        <p id="apellido_p"></p><br>
+        
+        <p><b>Edad: </b></p>
+        <input type="number" id="edad" required>
+        <p id="edad_p"></p><br>
+
+        <p><b>Provincia: </b></p>
+        <select id="provincia" required>
+            <option value="buenosAires">Buenos Aires</option>
+            <option value="caba">C.A.B.A</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="chaco">Chaco</option>
+            <option value="chubut">Chubut</option>
+            <option value="cordoba">Cordoba</option>
+            <option value="corrientes">Corrientes</option>
+            <option value="entreRios">Entre Rios</option>
+            <option value="formosa">Formosa</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="laPampa">La Pampa</option>
+            <option value="laRioja">La Rioja</option>
+            <option value="mendoza">Mendoza</option>
+            <option value="misiones">Misiones</option>
+            <option value="neuquen">Neuquen</option>
+            <option value="rioNegro">Rio Negro</option>
+            <option value="salta">Salta</option>
+            <option value="sanJuan">San Juan</option>
+            <option value="sanLuis">San Luis</option>
+            <option value="santaCruz">Santa Cruz</option>
+            <option value="santaFe">Santa Fe</option>
+            <option value="santiagoEstero">Santiago del Estero</option>
+            <option value="tierraFuego">Tierra del Fuego</option>
+            <option value="tucuman">Tucuman</option>
+        </select><
+        <p id="provincia_p"></p><br>
+
+        <p><b>Ciudad: </b></p>
+        <input type="text" id="ciudad" required>
+        <p id="ciudad_p"></p><br>
+
+        <p><b>Presentacion:</b></p>
+        <textarea name="" id="textArea"></textarea>
+        <h5 id="contador">0 / 1000</h5>
+        <button type="submit" id="boton">Enviar</button>
+    </form>
+</body>
+</html>
